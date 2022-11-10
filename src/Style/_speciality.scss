@@ -1,0 +1,50 @@
+.our-speciality {
+  background-color: #f5f5f5;
+
+  &-item {
+    background-color: #fff;
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+    &-content {
+      padding-left: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      a {
+        color: #000;
+        text-decoration: none;
+        border-bottom: 1px solid;
+
+        i {
+          transition: all 0.2s ease;
+          margin-left: 0.5rem;
+        }
+
+        &:hover {
+          i {
+            margin-left: 1rem;
+          }
+        }
+      }
+    }
+    &-img {
+      height: 100%;
+      flex: 0 0 50%;
+      align-self: flex-end;
+      background-color: #BBBBBB;
+      position: relative;
+      i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 5rem;
+      }
+    }
+
+  }
+}
